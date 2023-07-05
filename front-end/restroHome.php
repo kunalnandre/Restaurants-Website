@@ -1,5 +1,5 @@
 <?php 
-    //check if restro is logged in
+    
     include('../utilities/restro.auth.php');
 ?>
 
