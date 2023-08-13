@@ -2,7 +2,6 @@
   
     include('../utilities/dbConnection.php');
 ?>
-
 <html>
     <head>
         <title>user home page</title>
@@ -37,7 +36,6 @@
 
     
         <?php include('../utilities/alert.php') ?>
-
         <?php 
             $query="select * from restro";
             $result=mysqli_query($conn,$query);
